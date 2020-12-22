@@ -1,0 +1,45 @@
+#nav-style{
+	margin-top:-10px;
+}
+
+.container-fluid h1{
+    color:  #e6e6ff;
+    font-size: 1.5em;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  background-color: #a9a9a9;;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#Chicken:hover, #Beef:hover, #Sushi:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.container-fluid h2{
+	font-size: 100%;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	margin: 10px auto;
+	background-color: #ffd700;
+	color:  #fff3b2;
+}
+div section{
+	background-color: #a9a9a9;
+}
+#starter{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
