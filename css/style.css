@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body{
     overflow-x: hidden;
 }
+
 .home{
     height: 100vh;
     width: 100vw;
@@ -14,6 +16,13 @@ body{
     background-image: url('../img/home.jpg');
 }
 
+.nav-bar a{
+    font-family: 'Yeon Sung';
+}
+
+.nav-bar a:hover{
+    color: black;
+}
 .home h1{
    
    position: absolute;
@@ -199,6 +208,7 @@ body{
     position: absolute;
 }
 .lang{
+    font-family: 'ZCOOL QingKe HuangYou';
     display: flex;
     height: 10vh;
     width: 13vh;
@@ -323,6 +333,12 @@ body{
 
 @media only screen and (min-width: 750px) and (max-width: 999px)
 {
+    .nav-bar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+
     .home h1{
         font-size: 27px;
         /* left: 25vw; */
@@ -369,6 +385,12 @@ body{
 
 @media only screen and (min-width:1000px) and (max-width:1625px)
 {
+    .nav-bar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+
     .photo{
         width: 27vw; 
         height: 40vh;

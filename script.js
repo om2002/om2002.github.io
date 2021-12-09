@@ -1,7 +1,8 @@
 function myfunct() {
+    console.log('I am in')
     var x = document.getElementById('ul');
     y = document.getElementsByClassName("photo");
-    if (x.style.toggle == "block") {
+    if (x.style.display === "block") {
         x.style.display = "none";
     }
     else {
